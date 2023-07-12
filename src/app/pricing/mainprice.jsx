@@ -48,15 +48,15 @@ useEffect(()=>{
 console.log(country,people)
   return (
     <div>
-     
-     <div className='flex justify-center mt-8 '>
-        <button type='button' className={`border text-sm ${show ? 'bg-[#40CCB3]' : 'bg-white'} border-2 text-xs border-[#40CCB3]  rounded-l-[20px] px-10 py-2`} onClick={() => { setShow(true) }}>For Lenders </button>
-        <button type='button' className={`border text-sm ${show ? 'bg-white' : 'bg-[#40CCB3]'} border-2 text-xs border-[#40CCB3]  rounded-r-[20px] px-6 py-2`} onClick={() => { setShow(false) }}>For Personal Use </button>
-  </div> 
-  <div className="flex justify-end pr-8">
-      <Country country={['IN','US','KE']} OnChange={(e)=>{setCountry(e.target.value)}} />
-      
-      </div>
+        <div className='flex items-center md:gap-20 mb-4  w-[100%]'>
+        <div className='flex md:justify-end sm:justify-center mt-5 w-[65%] '>
+          <button type='button' className={`border text-black text-sm ${show ? 'bg-[#40CCB3]' : 'bg-white'} border-2 text-black text-xs border-[#40CCB3]  rounded-l-[20px] px-10 py-2`} onClick={() => { setShow(true) }}>For Lenders </button>
+          <button type='button' className={`border text-black  text-sm ${show ? 'bg-white' : 'bg-[#40CCB3]'} border-2  text-black text-xs border-[#40CCB3]  rounded-r-[20px] px-6 py-2`} onClick={() => { setShow(false) }}>For Personal Use </button>
+          </div> 
+          <div className="flex pr-20  w-[35%]">
+          <Country  country={['IN','US','KE']} OnChange={(e)=>{setCountry(e.target.value)}} />     
+          </div>
+          </div>
 
  
       <div className="mx-auto mb-24">

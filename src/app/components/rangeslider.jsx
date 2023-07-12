@@ -4,7 +4,7 @@ import Users from './users';
 
 
 const RangeSlider = ({onChange}) => {
-    const [value, setValue] = useState(10);
+    const [value, setValue] = useState(1);
   
     const handleSliderChange = (event, newValue) => {
       setValue(event.target.value);

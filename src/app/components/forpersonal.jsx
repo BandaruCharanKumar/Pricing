@@ -22,43 +22,45 @@ export default function ForPersonal({data={}}) {
       <div className="flex justify-center items-center  ">
         <div className=" flex  flex-col w-[300px] h-[440px] bg-[#f3f4f6] rounded-[16px] drop-shadow-lg ">
           <div className="flex flex-row justify-between ">
-            <h2 className="ml-5  mt-5 ">FREE</h2>
+            <h2 className="ml-5  mt-5 text-black ">FREE</h2>
           </div>
           <div className="flex flex-row">
-            <span className="text-[32px] mt-4 ml-5  font-semibold ">Free Forever</span>
+            <span className="text-[32px] mt-4 ml-5  font-semibold text-black">Free Forever</span>
           </div>
 
           <div className="flex flex-col" style={{fontfamily: 'Inter'}}>
-            <span className="ml-5 mt-4 mb-2">Features available</span>
+            <span className="ml-5 mt-4 mb-2 text-black">Features available</span>
             <div className="flex flex-col ">
-              <span className="flex ml-4 p-1 text-sm">
+              <span className="flex ml-4 p-1 text-sm text-black">
                 <div className="mt-1  mr-2 ">
                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" color="green" height="16" width="16" xmlns="http://www.w3.org/2000/svg" style={{color: 'green'}}>
                       <path d="M699 353h-46.9c-10.2 0-19.9 4.9-25.9 13.3L469 584.3l-71.2-98.8c-6-8.3-15.6-13.3-25.9-13.3H325c-6.5 0-10.3 7.4-6.5 12.7l124.6 172.8a31.8 31.8 0 0 0 51.7 0l210.6-292c3.9-5.3.1-12.7-6.4-12.7z"></path>
                       <path d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"></path>
                   </svg>
                 </div>
-                Automatic Cloud Backup ♻️</span><span className="flex ml-4 p-1 text-sm "><div className="mt-1  mr-2"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" color="green" height="16" width="16" xmlns="http://www.w3.org/2000/svg" style={{color: 'green'}}>
+                Automatic Cloud Backup ♻️</span>
+                <span className="flex ml-4 p-1 text-sm text-black">
+                  <div className="mt-1  mr-2"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" color="green" height="16" width="16" xmlns="http://www.w3.org/2000/svg" style={{color: 'green'}}>
                   <path d="M699 353h-46.9c-10.2 0-19.9 4.9-25.9 13.3L469 584.3l-71.2-98.8c-6-8.3-15.6-13.3-25.9-13.3H325c-6.5 0-10.3 7.4-6.5 12.7l124.6 172.8a31.8 31.8 0 0 0 51.7 0l210.6-292c3.9-5.3.1-12.7-6.4-12.7z"></path>
                   <path d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"></path>
                 </svg>
                 </div>
-                Upto 5 active loans</span><span className="flex ml-4 p-1 text-sm "><div className="mt-1  mr-2"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" color="green" height="16" width="16" xmlns="http://www.w3.org/2000/svg" style={{color: 'green'}}>
+                Upto 5 active loans</span><span className="flex ml-4 p-1 text-sm text-black"><div className="mt-1  mr-2"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" color="green" height="16" width="16" xmlns="http://www.w3.org/2000/svg" style={{color: 'green'}}>
                   <path d="M699 353h-46.9c-10.2 0-19.9 4.9-25.9 13.3L469 584.3l-71.2-98.8c-6-8.3-15.6-13.3-25.9-13.3H325c-6.5 0-10.3 7.4-6.5 12.7l124.6 172.8a31.8 31.8 0 0 0 51.7 0l210.6-292c3.9-5.3.1-12.7-6.4-12.7z"></path>
                   <path d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"></path>
                 </svg>
                 </div>
-                Magical Sync,use in many devices</span><span className="flex ml-4 p-1 text-sm "><div className="mt-1  mr-2"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" color="green" height="16" width="16" xmlns="http://www.w3.org/2000/svg" style={{color: 'green'}}>
+                Magical Sync,use in many devices</span><span className="flex ml-4 p-1 text-sm text-black "><div className="mt-1  mr-2"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" color="green" height="16" width="16" xmlns="http://www.w3.org/2000/svg" style={{color: 'green'}}>
                   <path d="M699 353h-46.9c-10.2 0-19.9 4.9-25.9 13.3L469 584.3l-71.2-98.8c-6-8.3-15.6-13.3-25.9-13.3H325c-6.5 0-10.3 7.4-6.5 12.7l124.6 172.8a31.8 31.8 0 0 0 51.7 0l210.6-292c3.9-5.3.1-12.7-6.4-12.7z"></path>
                   <path d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"></path>
                 </svg>
                 </div>
-                Simple, Compound &amp; Flat interest loans</span><span className="flex ml-4 p-1 text-sm "><div className="mt-1  mr-2"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" color="green" height="16" width="16" xmlns="http://www.w3.org/2000/svg" style={{color: 'green'}}>
+                Simple, Compound &amp; Flat interest loans</span><span className="flex ml-4 p-1 text-sm text-black"><div className="mt-1  mr-2"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" color="green" height="16" width="16" xmlns="http://www.w3.org/2000/svg" style={{color: 'green'}}>
                   <path d="M699 353h-46.9c-10.2 0-19.9 4.9-25.9 13.3L469 584.3l-71.2-98.8c-6-8.3-15.6-13.3-25.9-13.3H325c-6.5 0-10.3 7.4-6.5 12.7l124.6 172.8a31.8 31.8 0 0 0 51.7 0l210.6-292c3.9-5.3.1-12.7-6.4-12.7z"></path>
                   <path d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"></path>
                 </svg>
                 </div>
-                No Ads, Forever</span><span className="flex ml-4 p-1 text-sm "><div className="mt-1  mr-2"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" color="green" height="16" width="16" xmlns="http://www.w3.org/2000/svg" style={{color: 'green'}}>
+                No Ads, Forever</span><span className="flex ml-4 p-1 text-sm text-black "><div className="mt-1  mr-2"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" color="green" height="16" width="16" xmlns="http://www.w3.org/2000/svg" style={{color: 'green'}}>
                   <path d="M699 353h-46.9c-10.2 0-19.9 4.9-25.9 13.3L469 584.3l-71.2-98.8c-6-8.3-15.6-13.3-25.9-13.3H325c-6.5 0-10.3 7.4-6.5 12.7l124.6 172.8a31.8 31.8 0 0 0 51.7 0l210.6-292c3.9-5.3.1-12.7-6.4-12.7z"></path>
                   <path d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"></path>
                 </svg>
